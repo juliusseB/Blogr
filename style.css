@@ -1,0 +1,26 @@
+header{
+    background-color: hsl(13, 100%, 72%);
+    border-radius: 0 0 0 60px;
+    text-align: center;
+}
+.sublist{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "menus buttons";
+}
+li{
+    display: inline;
+}
+nav button{
+    grid-area: buttons;
+    width: 40%;
+}
+nav ul{
+    grid-area:menus;
+}
